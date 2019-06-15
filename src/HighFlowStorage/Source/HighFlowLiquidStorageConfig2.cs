@@ -53,7 +53,7 @@ namespace HighFlowStorage
             mass[0] = HighFlowStorageConfig.Config.liquidStorageMetalCost;
             string[] materials = MATERIALS.ALL_METALS;
             float melting_point = 800f;
-            BuildLocationRule build_location_rule = BuildLocationRule.OnFloor;
+            BuildLocationRule build_location_rule = BuildLocationRule.Anywhere;
             EffectorValues decor = BUILDINGS.DECOR.PENALTY.TIER1;
             EffectorValues noise = NOISE_POLLUTION.NOISY.TIER0;
             float temperature_modification_mass_scale = 0.2f;
